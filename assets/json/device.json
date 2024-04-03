@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Centaurus M200",
+      "price": 520000
+    },
+    {
+      "name": "R233",
+      "price": 450000
+    },
+    {
+      "name": "R234",
+      "price": 480000
+    },
+    {
+      "name": "Thelema Quest",
+      "price": 480000
+    },
+    {
+      "name": "TRML T200",
+      "price": 550000
+    },
+    {
+      "name": "Hexhom V3",
+      "price": 3300000
+    }
+  ]
+}

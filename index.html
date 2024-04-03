@@ -1,11 +1,1671 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KELOMPOK5-FE6</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KW Vape Store</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="public/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="public/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="public/favicon-16x16.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body class="bg-white overflow-x-hidden">
+    <header class="top-0 sticky-top border-bottom shadow-sm">
+      <section class="bg-white" id="navbar">
+        <nav class="navbar navbar-expand-lg bg-white container p-3">
+          <div class="container-fluid">
+            <div class="d-flex gap-3 align-items-center">
+              <div id="logo">
+                <img
+                  class="rounded-circle"
+                  src="assets/img/logo.svg"
+                  alt="logo"
+                  width="40"
+                  height="40"
+                />
+              </div>
+              <div id="brand">
+                <a class="navbar-brand fw-bold" href="#">KW Vape Store</a>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-4">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-us">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#featured">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <main class="bg-white overflow-x-hidden">
+      <!-- START -->
+      <section id="hero" class="bg-white py-5">
+        <div class="container my-5">
+          <div class="container-fluid align-items-center row">
+            <div class="col-md-6">
+              <div
+                data-aos="fade-down"
+                data-aos-offset="-50"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+              >
+                <span
+                  class="badge text-dark rounded-5 py-2 px-4 fw-semibold fs-6"
+                >
+                  New Arrival
+                </span>
+              </div>
+              <div class="lh-lg my-4">
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="-50"
+                  data-aos-delay="50"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <h1 class="h2 fw-bold text-dark">KW Vape Store</h1>
+                </div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-offset="-50"
+                  data-aos-delay="50"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <p class="text-dark text-opacity-75">
+                    Pengalaman merokok tanpa ribet dan tanpa repot. Mulailah
+                    hari dengan energi dan kenyamanan. Ayo, nikmati sensasi baru
+                    dengan vape! Tinggalkan kebiasaan lama dan rasakan
+                    pengalaman baru yang lebih bebas dan praktis.
+                  </p>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  data-aos-offset="-75"
+                  data-aos-delay="50"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <div class="d-lg-flex gap-3 d-sm-grid">
+                    <div>
+                      <a
+                        href="#about-us"
+                        class="btn btn-primary text-dark fw-semibold rounded-0 py-2 px-5"
+                      >
+                        Get Started
+                      </a>
+                    </div>
+                    <div>
+                      <button class="btn pe-none fw-bold text-dark">OR</button>
+                    </div>
+                    <div>
+                      <a
+                        href="#featured"
+                        class="btn text-decoration-underline text-primary link-offset-3 fw-semibold"
+                      >
+                        Explore
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <div
+                data-aos="zoom-in-up"
+                data-aos-offset="-50"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <img
+                  src="assets/img/hero-1.png"
+                  alt="hero"
+                  width="350"
+                  height="350"
+                  class="my-5 img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END -->
+      <!-- START -->
+      <section id="about-us" class="bg-body-tertiary py-5">
+        <div class="container">
+          <div class="container-fluid row align-items-center my-5">
+            <article class="col-md-6 lh-lg my-5">
+              <div class="py-2">
+                <div
+                  data-aos="zoom-in-down"
+                  data-aos-offset="-100"
+                  data-aos-delay="50"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <h6 class="text-primary fw-bold">Our Services</h6>
+                </div>
+              </div>
+              <div
+                data-aos="zoom-in-right"
+                data-aos-offset="-100"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+              >
+                <h2 class="about-heading fw-bold text-dark">About Us</h2>
+              </div>
+              <div
+                data-aos="zoom-in-left"
+                data-aos-offset="-100"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+              >
+                <p class="about-description text-dark text-opacity-75">
+                  Kami adalah pilihan utama Anda untuk semua kebutuhan vape dan
+                  aksesorisnya. Dari mods hingga pods, kami menyediakan berbagai
+                  jenis perangkat dan perlengkapan vaping.
+                </p>
+              </div>
+              <div
+                data-aos="zoom-in-up"
+                data-aos-offset="-100"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+              >
+                <a
+                  href="#contact"
+                  class="btn btn-primary rounded-0 py-2 px-5 text-dark fw-semibold"
+                  >Contact Us</a
+                >
+              </div>
+            </article>
+            <div class="col-md-6 text-center">
+              <div
+                data-aos="fade-up"
+                data-aos-offset="-50"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <img
+                  src="assets/img/card-about.svg"
+                  alt="about"
+                  width="450"
+                  height="450"
+                  class="my-5 img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END -->
+      <!-- START -->
+      <section id="featured" class="bg-white py-5">
+        <div class="container">
+          <div class="container-fluid">
+            <div class="col-md-12 my-5">
+              <article class="text-center">
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="-50"
+                  data-aos-delay="50"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <span
+                    class="badge bg-primary text-dark rounded-5 py-2 px-4 fw-semibold fs-6"
+                  >
+                    Featured Products
+                  </span>
+                </div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-offset="-50"
+                  data-aos-delay="50"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <h2 class="text-center text-dark fw-bold mt-4">
+                    Best Seller
+                  </h2>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  data-aos-offset="-50"
+                  data-aos-delay="50"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <p class="text-center my-4 text-dark">
+                    Pilihlah dari koleksi produk terpopuler kami yang selalu
+                    menjadi yang terbaik.
+                  </p>
+                </div>
+              </article>
+              <div class="row">
+                <div class="col-md-4 rounded-5 py-3" id="product-1">
+                  <div
+                    data-aos="flip-right"
+                    data-aos-offset="-50"
+                    data-aos-delay="50"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-center"
+                  >
+                    <div class="card">
+                      <div class="py-3">
+                        <img
+                          src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/3/22/811e7dd8-df76-4f5b-9f0a-1431d0fd91d0.jpg"
+                          class="card-img-top object-fit-contain"
+                          width="300"
+                          height="300"
+                          alt="best"
+                        />
+                      </div>
+                      <div class="card-body bg-body-tertiary">
+                        <h5 class="about-heading fw-bold">Product Name</h5>
+                        <div class="row">
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-6 col-6 text-start"
+                          >
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                          </div>
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-6 col-6 text-lg-end text-md-start text-sm-end text-end"
+                          >
+                            <span>1 Reviews</span>
+                          </div>
+                          <div class="">
+                            <span>Rp. Price Here</span>
+                          </div>
+                        </div>
+                        <div class="pt-2 pb-3">
+                          <p class="card-text text-dark text-opacity-75">
+                            Liquid Bolu Bakar V2 Blueberry Raisin 60ML by Java
+                            Juice
+                          </p>
+                        </div>
+                        <a
+                          href="https://www.instagram.com/kw_vapestore/"
+                          target="_blank"
+                          class="btn btn-primary rounded-0 w-100 text-dark fw-semibold"
+                        >
+                          <i class="bi bi-cart"></i>
+                          <span>Buy it now!</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 rounded-5 py-3" id="product-2">
+                  <div
+                    data-aos="flip-right"
+                    data-aos-offset="-50"
+                    data-aos-delay="250"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-center"
+                  >
+                    <div class="card">
+                      <div class="py-3">
+                        <img
+                          src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//104/MTA-88217816/no_brand_kayon_v2-0_rda_24mm_by_hero57_x_vape_am_-_r57_kayon_rda_v2_authentic_-new_colour-_full04_slzuuu77.jpg"
+                          class="card-img-top object-fit-contain"
+                          width="300"
+                          height="300"
+                          alt="best"
+                        />
+                      </div>
+                      <div class="card-body bg-body-tertiary">
+                        <h5 class="about-heading fw-bold">Product Name</h5>
+                        <div class="row">
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-6 col-6 text-start"
+                          >
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                          </div>
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-6 col-6 text-lg-end text-md-start text-sm-end text-end"
+                          >
+                            <span>1 Reviews</span>
+                          </div>
+                          <div class="">
+                            <span>Rp. Price Here</span>
+                          </div>
+                        </div>
+                        <div class="pt-2 pb-3">
+                          <p class="card-text text-dark text-opacity-75">
+                            Kayon V2 RDA 100% Authentic by Hero57 x Vape Am
+                          </p>
+                        </div>
+                        <a
+                          href="https://www.instagram.com/kw_vapestore/"
+                          target="_blank"
+                          class="btn btn-primary rounded-0 w-100 text-dark fw-semibold"
+                        >
+                          <i class="bi bi-cart"></i>
+                          <span>Buy it now!</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 rounded-5 py-3" id="product-3">
+                  <div
+                    data-aos="flip-right"
+                    data-aos-offset="-50"
+                    data-aos-delay="450"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-center"
+                  >
+                    <div class="card">
+                      <div class="py-3">
+                        <img
+                          src="https://www.lostvape.com/wp-content/uploads/2022/10/Galaxy-Black-1-845x684.jpg"
+                          class="card-img-top object-fit-contain"
+                          width="300"
+                          height="300"
+                          alt="best"
+                        />
+                      </div>
+                      <div class="card-body bg-body-tertiary">
+                        <h5 class="about-heading fw-bold">Product Name</h5>
+                        <div class="row">
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-6 col-6 text-start"
+                          >
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                          </div>
+                          <div
+                            class="col-lg-6 col-md-12 col-sm-6 col-6 text-lg-end text-md-start text-sm-end text-end"
+                          >
+                            <span>1 Reviews</span>
+                          </div>
+                          <div class="">
+                            <span>Rp. Price Here</span>
+                          </div>
+                        </div>
+                        <div class="pt-2 pb-3">
+                          <p class="card-text text-dark text-opacity-75">
+                            Lost Vape Centaurus M200 Regular Edition by Lost
+                            Vape
+                          </p>
+                        </div>
+                        <a
+                          href="https://www.instagram.com/kw_vapestore/"
+                          target="_blank"
+                          class="btn btn-primary rounded-0 w-100 text-dark fw-semibold"
+                        >
+                          <i class="bi bi-cart"></i>
+                          <span>Buy it now!</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END -->
+      <!-- START -->
+      <section id="product" class="bg-body-tertiary py-5">
+        <div class="container text-dark">
+          <div class="container-fluid">
+            <div class="row text-center">
+              <div class="py-5">
+                <div class="py-2">
+                  <div
+                    data-aos="fade-down"
+                    data-aos-offset="-50"
+                    data-aos-delay="50"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-center"
+                  >
+                    <h6 class="text-primary fw-bold">Our Product</h6>
+                  </div>
+                </div>
+                <h2 id="products" class="text-dark fw-bold">Product List</h2>
+                <div
+                  data-aos="fade-up"
+                  data-aos-offset="-50"
+                  data-aos-delay="50"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <p class="text-center mt-3">
+                    Temukan produk yang sesuai untuk Anda.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- SWIPER START -->
+            <div class="pb-5 overflow-x-hidden">
+              <div
+                data-aos="fade-down"
+                data-aos-offset="-50"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <div class="swiper-container mySwiper">
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide d-flex justify-content-center align-items-center rounded-5"
+                    >
+                      <div class="d-grid">
+                        <div class="mb-3">
+                          <img
+                            src="assets/img/product-1.svg"
+                            alt="product-1"
+                            width="500"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <button
+                          class="btn btn-primary text-dark fw-semibold rounded-0 px-5 py-2 w-100 mx-auto"
+                          type="button"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal-1"
+                        >
+                          <i class="bi bi-eye-fill"></i>
+                          View Product
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="swiper-slide d-flex justify-content-center align-items-center rounded-5"
+                    >
+                      <div class="d-grid">
+                        <div class="mb-3">
+                          <img
+                            src="assets/img/product-2.svg"
+                            alt="product-2"
+                            width="500"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <button
+                          class="btn btn-primary text-dark fw-semibold rounded-0 px-5 py-2 w-100 mx-auto"
+                          type="button"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal-2"
+                        >
+                          <i class="bi bi-eye-fill"></i>
+                          View Product
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="swiper-slide d-flex justify-content-center align-items-center rounded-5"
+                    >
+                      <div class="d-grid">
+                        <div class="mb-3">
+                          <img
+                            src="assets/img/product-3.svg"
+                            alt="product-3"
+                            width="500"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <button
+                          class="btn btn-primary text-dark fw-semibold rounded-0 px-5 py-2 w-100 mx-auto"
+                          type="button"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal-3"
+                        >
+                          <i class="bi bi-eye-fill"></i>
+                          View Product
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SWIPER END -->
+            <!-- MODAL START -->
+            <div class="">
+              <div
+                class="modal fade"
+                id="modal-1"
+                tabindex="-1"
+                aria-labelledby="modal-1-label"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="modal-1-label">
+                        Liquid
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <ol id="product-list-1" class="lh-lg"></ol>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary text-dark fw-semibold"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- SEPARATE -->
+              <div
+                class="modal fade"
+                id="modal-2"
+                tabindex="-1"
+                aria-labelledby="modal-2-label"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="modal-2-label">RDA</h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <ol id="product-list-2" class="lh-lg"></ol>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary text-dark fw-semibold"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- SEPARATE -->
+              <div
+                class="modal fade"
+                id="modal-3"
+                tabindex="-1"
+                aria-labelledby="modal-3-label"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="modal-3-label">
+                        Device
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <ol id="product-list-3" class="lh-lg"></ol>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary text-dark fw-semibold"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MODAL END -->
+            <div class="text-center text-dark pb-5">
+              <button
+                class="btn btn-outline-secondary rounded-0 text-dark fw-semibold pe-none fst-italic"
+              >
+                <i class="bi bi-info-circle-fill"></i>
+                <span>Swipe left to see other product</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END -->
+      <!-- START -->
+      <section id="testimonials" class="bg-white py-5">
+        <div class="container my-5 text-dark">
+          <div class="text-center">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-offset="-50"
+              data-aos-delay="50"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center"
+            >
+              <span
+                class="badge bg-primary text-dark rounded-5 py-2 px-4 fw-semibold fs-6"
+              >
+                Reviews
+              </span>
+            </div>
+            <div
+              data-aos="flip-down"
+              data-aos-offset="-50"
+              data-aos-delay="50"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center"
+            >
+              <h2 class="fw-bold py-3">Testimonials</h2>
+            </div>
+            <div
+              data-aos="zoom-in-up"
+              data-aos-offset="-50"
+              data-aos-delay="50"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center"
+            >
+              <p class="mb-5">
+                Dengarkan apa yang mereka katakan tentang kami.
+              </p>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="-50"
+            data-aos-delay="50"
+            data-aos-duration="700"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-md-6 bg-primary text-dark p-5 rounded">
+                        <img src="https://i.pravatar.cc/300" "
+                        class="rounded-circle mx-auto d-block" alt="Profile
+                        Picture" width="150px" height="150px" />
+                        <h5 class="mt-3">Rizki A.</h5>
+                        <p>
+                          "Saya sudah menjadi pelanggan setia KW Vape Store
+                          sejak mereka pertama kali membuka toko. Mereka selalu
+                          menyediakan produk vape berkualitas tinggi dengan
+                          harga yang bersaing. Selain itu, pelayanan pelanggan
+                          mereka sangat ramah dan responsif."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-md-6 bg-primary text-dark p-5 rounded">
+                        <img
+                          src="https://i.pravatar.cc/300"
+                          class="rounded-circle mx-auto d-block"
+                          alt="Profile Picture"
+                          width="150px"
+                          height="150px"
+                        />
+                        <h5 class="mt-3">Rangga A.</h5>
+                        <p>
+                          "Saya sangat terkesan dengan komitmen KW Vape Store
+                          terhadap kepuasan pelanggan. Setiap kali saya memiliki
+                          pertanyaan atau masalah, mereka selalu siap membantu
+                          dengan ramah dan profesional. Itu membuat saya merasa
+                          dihargai sebagai pelanggan."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-md-6 bg-primary text-dark p-5 rounded">
+                        <img
+                          src="https://i.pravatar.cc/300"
+                          class="rounded-circle mx-auto d-block"
+                          alt="Profile Picture"
+                          width="150px"
+                          height="150px"
+                        />
+                        <h5 class="mt-3">Arsa F.</h5>
+                        <p>
+                          "KW Vape Store benar-benar merupakan tempat terbaik
+                          untuk membeli perangkat vape dan e-liquid favorit
+                          saya. Mereka memiliki berbagai pilihan produk dari
+                          berbagai merek terkenal, sehingga saya selalu bisa
+                          menemukan apa yang saya cari. Terima kasih KW Vape
+                          Store atas layanan yang luar biasa!"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-md-6 bg-primary text-dark p-5 rounded">
+                        <img
+                          src="https://i.pravatar.cc/300"
+                          class="rounded-circle mx-auto d-block"
+                          alt="Profile Picture"
+                          width="150px"
+                          height="150px"
+                        />
+                        <h5 class="mt-3">Dimas R.</h5>
+                        <p>
+                          "KW Vape Store adalah tempat yang luar biasa untuk
+                          mendapatkan produk vape berkualitas dengan harga
+                          terjangkau. Kualitas produknya sangat baik, layanan
+                          pelanggan ramah, dan harga bersaing. Saya sangat puas
+                          dengan pengalaman berbelanja di sini!"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-md-6 bg-primary text-dark p-5 rounded">
+                        <img
+                          src="https://i.pravatar.cc/300"
+                          class="rounded-circle mx-auto d-block"
+                          alt="Profile Picture"
+                          width="150px"
+                          height="150px"
+                        />
+                        <h5 class="mt-3">Varel R.</h5>
+                        <p>
+                          "KW Vape Store adalah tempat terbaik untuk memenuhi
+                          kebutuhan vape saya. Mereka memiliki pilihan produk
+                          yang luar biasa, mulai dari perangkat hingga e-liquid,
+                          dengan berbagai macam rasa. Setiap kali saya
+                          mengunjungi toko ini, saya selalu menemukan apa yang
+                          saya cari. Terima kasih KW Vape Store."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon bg-primary rounded-5 py-5"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon bg-primary rounded-5 py-5"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END -->
+      <!-- START -->
+      <section id="contact" class="bg-body-tertiary py-5">
+        <div class="container my-5 text-dark">
+          <div class="container-fluid pb-5">
+            <div class="py-4 text-center">
+              <div class="py-2">
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="-50"
+                  data-aos-delay="50"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <h6 class="text-primary fw-bold">Get in Touch</h6>
+                </div>
+              </div>
+              <h2 id="contacts" class="text-dark fw-bold">Contact</h2>
+              <div
+                data-aos="fade-left"
+                data-aos-offset="-50"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+              >
+                <p class="text-center mt-3">
+                  Jika Anda memiliki pertanyaan, saran, atau masalah, jangan
+                  ragu untuk menghubungi kami. Tim kami siap membantu Anda
+                  dengan senang hati.
+                </p>
+              </div>
+            </div>
+            <div
+              data-aos="flip-left"
+              data-aos-offset="-50"
+              data-aos-delay="50"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+            >
+              <div class="row shadow-sm">
+                <div class="col-md-6 col-lg-4 bg-primary rounded-start-3">
+                  <article class="m-4">
+                    <div>
+                      <h4 class="fw-semibold">Get in touch with our team</h4>
+                      <p>
+                        Tim kami dengan senang hati siap membantu Anda dengan
+                        layanan yang ramah dan responsif. Jangan ragu untuk
+                        menghubungi kami kapan pun.
+                      </p>
+                    </div>
+                    <div class="d-grid lh-1">
+                      <div class="d-flex gap-2">
+                        <i class="bi bi-telephone-fill"></i>
+                        <p>+6281354712391</p>
+                      </div>
+                      <div class="d-flex gap-2">
+                        <i class="bi bi-envelope-fill"></i>
+                        <p>kwvapestore@gmail.com</p>
+                      </div>
+                      <div class="d-flex gap-2">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>
+                          Jalan Pamotan-Sedan, Tajen, Pamotan, Rembang Regency,
+                          Central Java, Indonesia
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6 col-lg-8 bg-white rounded-end-3">
+                  <div class="m-4">
+                    <form id="myForm">
+                      <div class="mb-3">
+                        <label for="name" class="form-label fw-semibold"
+                          >Name</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your name"
+                          required
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label fw-semibold"
+                          >Email</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your email"
+                          required
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="message" class="form-label fw-semibold"
+                          >Message</label
+                        >
+                        <textarea
+                          class="form-control"
+                          id="message"
+                          rows="3"
+                          placeholder="Your message"
+                          required
+                        ></textarea>
+                      </div>
+                      <button
+                        id="submit-msg"
+                        type="submit"
+                        class="btn btn-primary text-dark fw-semibold rounded-0 px-5"
+                      >
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END -->
+      <!-- START -->
+      <section id="faq" class="bg-white py-5">
+        <div class="container my-5 text-dark">
+          <div class="text-center">
+            <div class="py-3">
+              <div
+                data-aos="flip-left"
+                data-aos-offset="-50"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+              >
+                <span
+                  class="badge bg-primary text-dark rounded-5 py-2 px-4 fw-semibold fs-6"
+                >
+                  Cure your Curiosity
+                </span>
+              </div>
+            </div>
+            <h2 class="fw-bold">Frequently Asked Question</h2>
+          </div>
+          <div
+            data-aos="flip-right"
+            data-aos-offset="-50"
+            data-aos-delay="50"
+            data-aos-duration="700"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center"
+          >
+            <p class="text-center py-3">
+              Temukan jawaban untuk beberapa pertanyaan umum tentang kami dan
+              produk kami.
+            </p>
+          </div>
+          <div class="row bg-body-tertiary">
+            <div
+              class="col-md-4 d-flex flex-column justify-content-center align-items-center py-2"
+            >
+              <div
+                data-aos="flip-down"
+                data-aos-offset="-50"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <div class="my-3">
+                  <div class="col-md-12 text-center">
+                    <button
+                      class="btn btn-primary rounded-0 py-2 px-5 text-dark fw-semibold"
+                      id="faq-store"
+                    >
+                      About Store
+                    </button>
+                  </div>
+                  <div class="col-md-12 text-center my-3 fw-bold">OR</div>
+                  <div class="col-md-12 text-center">
+                    <button
+                      class="btn btn-primary rounded-0 py-2 px-5 text-dark fw-semibold"
+                      id="faq-vape"
+                    >
+                      About Vape
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 bg-white">
+              <div
+                data-aos="flip-up"
+                data-aos-offset="-50"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <div
+                  class="accordion accordion-store"
+                  id="accordionPanelsStayOpenExample"
+                >
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                      <button
+                        class="accordion-button fw-semibold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne"
+                        aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne"
+                      >
+                        Apa itu KW Vape Store?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="panelsStayOpen-headingOne"
+                    >
+                      <div class="accordion-body">
+                        KW Vape Store adalah sebuah toko daring yang menjual
+                        berbagai macam peralatan vape dan produk terkaitnya. KW
+                        Vape Store menyediakan berbagai pilihan produk vape dari
+                        berbagai merek terkemuka dalam industri vape, termasuk
+                        starter kits untuk pemula, mods dan atomizers untuk
+                        pengguna berpengalaman, serta berbagai macam e-liquid
+                        dengan berbagai rasa dan kekuatan nikotin.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                      <button
+                        class="accordion-button fw-semibold collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo"
+                      >
+                        Apa yang membedakan KW Vape Store dari toko vape
+                        lainnya?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingTwo"
+                    >
+                      <div class="accordion-body">
+                        KW Vape Store menonjol karena menyediakan kombinasi
+                        unggul antara produk berkualitas tinggi, layanan
+                        pelanggan yang ramah, dan harga yang kompetitif. Kami
+                        juga memastikan untuk terus memperbarui inventaris kami
+                        dengan produk-produk terbaru dan terbaik di industri
+                        vape.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2
+                      class="accordion-header"
+                      id="panelsStayOpen-headingThree"
+                    >
+                      <button
+                        class="accordion-button fw-semibold collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree"
+                      >
+                        Apa jenis produk yang tersedia di KW Vape Store?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingThree"
+                    >
+                      <div class="accordion-body">
+                        Kami menyediakan beragam peralatan vape mulai dari
+                        starter kits untuk pemula hingga mods dan atomizers
+                        untuk pengguna berpengalaman. Selain itu, kami juga
+                        memiliki koleksi beragam e-liquid dengan berbagai rasa
+                        yang dapat dipilih sesuai selera.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2
+                      class="accordion-header"
+                      id="panelsStayOpen-headingFour"
+                    >
+                      <button
+                        class="accordion-button fw-semibold collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo"
+                      >
+                        Bagaimana cara memesan produk dari KW Vape Store?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseFour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingFour"
+                    >
+                      <div class="accordion-body">
+                        Untuk memesan produk dari KW Vape Store, cukup jelajahi
+                        katalog kami, pilih produk yang Anda inginkan, jika
+                        sudah bisa dm melalui akun instragram kami
+                        <a
+                          href="https://www.instagram.com/kw_vapestore/"
+                          class="text-primary fw-semibold"
+                          >@kw_vapestore</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2
+                      class="accordion-header"
+                      id="panelsStayOpen-headingFive"
+                    >
+                      <button
+                        class="accordion-button fw-semibold collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFive"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive"
+                      >
+                        Apakah produk-produk vape di KW Vape Store berasal dari
+                        merek terkenal?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseFive"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingFive"
+                    >
+                      <div class="accordion-body">
+                        Ya, kami bekerja sama dengan merek-merek terkemuka dalam
+                        industri vape untuk menyediakan produk berkualitas
+                        tinggi kepada pelanggan kami.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="accordion accordion-vape"
+                  id="accordionPanelsStayOpenExample"
+                  style="display: none"
+                >
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                      <button
+                        class="accordion-button fw-semibold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne"
+                        aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne"
+                      >
+                        Apa Itu Vape?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="panelsStayOpen-headingOne"
+                    >
+                      <div class="accordion-body">
+                        Vape, atau vaporizer, adalah perangkat elektronik yang
+                        digunakan untuk menghasilkan uap dari cairan yang
+                        disebut e-liquid atau e-juice. Prosesnya melibatkan
+                        pemanasan e-liquid hingga menghasilkan uap yang dapat
+                        dihirup oleh pengguna. Penggunaan vape sering juga
+                        disebut sebagai "vaping".
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                      <button
+                        class="accordion-button fw-semibold collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo"
+                      >
+                        Bagaimana Cara Kerja Vape?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingTwo"
+                    >
+                      <div class="accordion-body">
+                        Vape bekerja dengan memanaskan e-liquid yang mengandung
+                        propilen glikol, gliserin, nikotin (opsional), dan
+                        berbagai macam rasa dan aroma. E-liquid dipanaskan oleh
+                        coil (kawat pemanas) dalam atomizer. Ketika e-liquid
+                        dipanaskan, ia menghasilkan uap yang dapat dihirup
+                        melalui mouthpiece.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2
+                      class="accordion-header"
+                      id="panelsStayOpen-headingThree"
+                    >
+                      <button
+                        class="accordion-button fw-semibold collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree"
+                      >
+                        Apakah vape aman digunakan?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingThree"
+                    >
+                      <div class="accordion-body">
+                        Saat digunakan dengan benar, vape dapat menjadi
+                        alternatif yang lebih aman daripada rokok tembakau
+                        konvensional. Namun, penting untuk memahami cara
+                        menggunakan perangkat dengan benar, memilih bahan bakar
+                        yang tepat, dan mengikuti petunjuk penggunaan serta
+                        keamanan yang diberikan oleh produsen.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2
+                      class="accordion-header"
+                      id="panelsStayOpen-headingFour"
+                    >
+                      <button
+                        class="accordion-button fw-semibold collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo"
+                      >
+                        Bagaimana cara membersihkan dan merawat perangkat vape?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseFour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingFour"
+                    >
+                      <div class="accordion-body">
+                        Untuk membersihkan dan merawat perangkat vape, biasanya
+                        Anda perlu membongkar bagian-bagian atomizer dan
+                        membersihkannya dengan air hangat atau cairan pembersih
+                        yang sesuai. Pastikan untuk menjaga baterai tetap terisi
+                        dan jauhkan perangkat dari air dan panas berlebih.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2
+                      class="accordion-header"
+                      id="panelsStayOpen-headingFive"
+                    >
+                      <button
+                        class="accordion-button fw-semibold collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFive"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive"
+                      >
+                        Apa yang harus diperhatikan dalam pemilihan e-liquid?
+                      </button>
+                    </h2>
+                    <div
+                      id="panelsStayOpen-collapseFive"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingFive"
+                    >
+                      <div class="accordion-body">
+                        Saat memilih e-liquid, penting untuk mempertimbangkan
+                        kandungan nikotin, rasio PG/VG, dan rasa. Kandungan
+                        nikotin dapat dipilih sesuai dengan preferensi Anda,
+                        sedangkan rasio PG/VG akan mempengaruhi sensasi dan
+                        kepadatan uap. Rasa e-liquid dipilih berdasarkan
+                        preferensi pribadi.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END -->
+    </main>
+    <footer>
+      <section id="footer" class="bg-body-tertiary">
+        <div class="container text-dark">
+          <div class="container-fluid pt-5">
+            <div class="row g-4 lh-lg pb-3">
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                  <h4 class="text-dark mb-3">About Store</h4>
+                  <p>
+                    Sejak 2020, kami berkomitmen untuk menghadirkan vape
+                    berkualitas dan layanan terbaik bagi para pecinta vape.
+                    Koleksi produk dan layanan kami terus berkembang untuk
+                    memberikan pengalaman belanja yang tak terlupakan.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="d-flex flex-column text-start footer-item">
+                  <h4 class="text-dark mb-3">Our Product</h4>
+                  <ul class="list-unstyled d-grid gap-2">
+                    <a href="#featured" class="d-flex gap-2 text-dark">
+                      <i class="bi bi-bag-heart-fill"></i>
+                      <li>Best Seller</li>
+                    </a>
+                    <a href="#product" class="d-flex gap-2 text-dark">
+                      <i class="bi bi-filter-circle-fill"></i>
+                      <li>Product List</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="d-flex flex-column text-start footer-item">
+                  <h4 class="text-dark mb-3">Our Location</h4>
+                  <div>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.031953649349!2d111.48742497604346!3d-6.765958366165437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77179c457330eb%3A0x56d022e8a8583829!2sKW%20Vapestore!5e0!3m2!1sen!2sid!4v1711340484714!5m2!1sen!2sid"
+                      width="255"
+                      height="200"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="d-flex flex-column text-start footer-item">
+                  <h4 class="text-dark mb-3">Our SNS</h4>
+                  <ul class="list-unstyled d-grid gap-2">
+                    <a
+                      href="https://www.facebook.com/kw.vapestore/"
+                      class="d-flex gap-2 text-dark"
+                      target="_blank"
+                    >
+                      <i class="bi bi-facebook"></i>
+                      <li>KW Vape Store</li>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/kw_vapestore"
+                      class="d-flex gap-2 text-dark"
+                      target="_blank"
+                    >
+                      <i class="bi bi-instagram"></i>
+                      <li>@kwvapestore</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-dark bg-primary fw-normal pt-4 pb-2">
+          <p>
+            Copyright &copy; 2024 KW Vape Store | Powered by Gamelab Indonesia |
+            FE#6 Kelompok 5
+          </p>
+        </div>
+      </section>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Sweet Alert 2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Swiper Card -->
+    <script src="assets/js/swiper-product.js"></script>
+    <!-- jQuery DOM & AJAX -->
+    <script src="assets/js/product-liquid.js"></script>
+    <script src="assets/js/product-rda.js"></script>
+    <script src="assets/js/product-device.js"></script>
+    <script src="assets/js/featured-liquid.js"></script>
+    <script src="assets/js/featured-rda.js"></script>
+    <script src="assets/js/featured-device.js"></script>
+    <!-- jQuery Effect -->
+    <script src="assets/js/effect-faq.js"></script>
+    <!-- jQuery Event -->
+    <script src="assets/js/event-submit.js"></script>
+    <!-- jQuery Dynamic Navbar -->
+    <script src="assets/js/dynamic-navbar.js"></script>
+  </body>
 </html>

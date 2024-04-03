@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Kayon V2",
+      "price": 350000
+    },
+    {
+      "name": "Dead Rabbit v3",
+      "price": 330000
+    },
+    {
+      "name": "Nitrous Dual Cap",
+      "price": 330000
+    },
+    {
+      "name": "AN RDA V2",
+      "price": 750000
+    },
+    {
+      "name": "Reload S",
+      "price": 900000
+    },
+    {
+      "name": "Stalk RDA",
+      "price": 265000
+    }
+  ]
+}
