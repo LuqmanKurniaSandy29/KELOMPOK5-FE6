@@ -15,6 +15,16 @@ Selamat datang di KW Vape Store! Kami adalah toko daring yang menyediakan berbag
 
 Kami telah merancang halaman landing KW Vape Store menggunakan Figma. Lihat desainnya [di sini](https://www.figma.com/file/xYTp9NLkrOuf27kNcU1ZfG/UMKM-Vabe-Store?type=design&node-id=0%3A1&mode=design&t=3muvjt2HvdHQfrnO-1).
 
+## Pihak yang Berkontribusi
+
+- Ahmad Jihaduddin Salim
+- Alvin Novizar Ram Gonzales
+- Azarine Tisha Alodia Yugiani
+- Luqman Kurnia Sandy
+- Restu Bumi Ryan Ramadhan
+
+Untuk dokumentasi selengkapnya dapat dilihat [di sini](https://drive.google.com/file/d/1mSvOopIhYh956nncHUdwt_t-OTLybfg5/view).
+
 ## Lisensi
 
 Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detailnya.
